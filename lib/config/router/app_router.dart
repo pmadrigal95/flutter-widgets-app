@@ -44,5 +44,11 @@ final appRouter = GoRouter(
         );
       },
     ),
+
+    GoRoute(
+      path: '/progress',
+      name: ProgressScreen.name,
+      builder: (context, state) => const ProgressScreen(),
+    ),
   ],
 );
