@@ -40,4 +40,10 @@ const appMenuItems = <MenuItem>[
       subTitle: 'Indicadores en pantalla',
       link: '/snackbars',
       icon: Icons.add_to_home_screen),
+
+  MenuItem(
+    title: 'Animated Container',
+    subTitle: 'Statefull widget animado',
+    link: '/animated',
+    icon: Icons.square_rounded),
 ];
