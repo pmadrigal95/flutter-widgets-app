@@ -58,4 +58,10 @@ const appMenuItems = <MenuItem>[
     subTitle: 'Pequeño tutorial introductorio',
     link: '/tutorial',
     icon: Icons.sports_esports_rounded),
+
+  MenuItem(
+    title: 'Infinite Scroll y Pull',
+    subTitle: 'Listas infinitas y pull to refesh',
+    link: '/infinite',
+    icon: Icons.list),
 ];
